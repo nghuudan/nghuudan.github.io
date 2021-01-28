@@ -1,0 +1,7 @@
+@import './vars';
+
+@mixin mixin-breakpoint-tablet {
+  @media screen and (min-width: $breakpoint-tablet) {
+    @content
+  }
+}

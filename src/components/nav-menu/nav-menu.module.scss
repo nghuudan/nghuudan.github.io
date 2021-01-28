@@ -1,0 +1,74 @@
+@import '../../mixins';
+@import '../../vars';
+
+.nav-menu {
+  display: block;
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
+
+.nav-list {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: block;
+  margin: 0;
+
+  + .nav-item {
+    margin-top: 1rem;
+  }
+}
+
+.nav-link {
+  background-color: $nav-link-bg-color;
+  border-radius: 100%;
+  box-sizing: border-box;
+  color: $body-font-color;
+  display: block;
+  height: 2rem;
+  line-height: 2;
+  margin-left: auto;
+  opacity: .75;
+  text-decoration: none;
+  transition: opacity .2s ease-out;
+  width: 2rem;
+
+  &:hover,
+  &:active {
+    opacity: 1;
+  }
+}
+
+.nav-icon {
+  display: inline-block;
+  text-align: center;
+  width: 2rem;
+}
+
+.nav-text {
+  display: none;
+}
+
+@include mixin-breakpoint-tablet {
+  .nav-link {
+    border-radius: 1rem;
+    color: $body-font-color;
+    display: block;
+    padding: 0 1rem;
+    width: auto;
+  }
+
+  .nav-icon {
+    width: 1.5rem;
+  }
+
+  .nav-text {
+    display: inline-block;
+    margin-left: .5rem;
+  }
+}

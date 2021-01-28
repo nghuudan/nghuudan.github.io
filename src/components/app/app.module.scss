@@ -1,0 +1,61 @@
+@import '../../mixins';
+@import '../../vars';
+
+.app {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-section {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 1rem;
+  scroll-snap-align: start;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+  transition: font-size .2s ease-out;
+}
+
+.section-subtitle {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  transition: font-size .2s ease-out;
+}
+
+.top-section {
+  align-items: center;
+  background-color: $top-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experience-section {
+  background-color: $experience-bg-color;
+}
+
+.skills-section {
+  background-color: $skills-bg-color;
+}
+
+.education-section {
+  background-color: $education-bg-color;
+}
+
+@include mixin-breakpoint-tablet {
+  .section-title {
+    font-size: 3.75rem;
+  }
+
+  .section-subtitle {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,22 @@
+@import '~@fontsource/open-sans/300.css';
+@import '~@fontsource/open-sans/400.css';
+@import '~@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '~@fortawesome/fontawesome-free/css/solid.css';
+@import './vars';
+
+body {
+  background-color: $body-bg-color;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+.app-root {
+  height: 100%;
+}

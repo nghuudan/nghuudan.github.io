@@ -1,8 +1,7 @@
 .copyright {
-  bottom: 1rem;
-  left: 1rem;
+  line-height: 1;
   margin: 0;
-  position: fixed;
-  right: 1rem;
+  padding: 2rem 1rem;
+  scroll-snap-align: end;
   text-align: center;
 }

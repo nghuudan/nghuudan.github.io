@@ -9,6 +9,40 @@
   scroll-snap-type: y mandatory;
 }
 
+.links {
+  margin: 2rem auto;
+}
+
+.external-link {
+  &:link {
+    color: $link-font-color;
+  }
+
+  &:visited {
+    color: $link-visited-font-color;
+  }
+
+  &:hover {
+    color: $link-hover-font-color;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $link-active-font-color;
+  }
+
+  + .external-link {
+    margin-left: 1rem;
+  }
+}
+
+.link-icon {
+  display: inline-block;
+  margin-right: .25rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
 .scroll-section {
   box-sizing: border-box;
   min-height: 100%;

@@ -12,6 +12,7 @@
 .skill-group {
   display: block;
   margin: 0;
+  max-width: 100%;
   padding: 0;
 
   + .skill-group {
@@ -23,11 +24,13 @@
   font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
+  max-width: 100%;
 }
 
 .skill-value {
   font-size: 1rem;
   margin: .25rem 0;
+  max-width: 100%;
 }
 
 @include mixin-breakpoint-tablet {
@@ -35,15 +38,18 @@
     align-items: flex-start;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
   }
 
   .skill-name {
-    flex: 0 0 25%;
+    flex: 0 0 auto;
+    width: 25%;
   }
 
   .skill-value {
-    flex: 0 0 75%;
+    flex: 0 0 auto;
     font-size: 1.25rem;
     font-weight: 300;
+    width: 75%;
   }
 }

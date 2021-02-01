@@ -5,7 +5,7 @@ const Education = () => (
   <ul className={styles.education}>
     <li className={styles.college}>
       <h2 className={styles.years}>2001&mdash;2005</h2>
-      <h2 className={styles.name}>University of Massachusetts Lowell</h2>
+      <h2 className={styles.name}>University of Massachusetts</h2>
       <h2 className={styles.location}>Lowell, MA</h2>
       <ul className={styles.degree}>
         <li>

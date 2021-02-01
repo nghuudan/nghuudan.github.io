@@ -1,7 +1,14 @@
+@import '../../vars';
+
 .copyright {
+  background-color: $copyright-bg-color;
+  bottom: 0;
+  font-size: 1rem;
+  left: 0;
   line-height: 1;
   margin: 0;
-  padding: 2rem 1rem;
-  scroll-snap-align: end;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
   text-align: center;
 }

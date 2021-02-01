@@ -1,6 +1,7 @@
 import React from 'react';
 import TopLinks from '../top-links/top-links';
 import Experience from '../experience/experience';
+import Skills from '../skills/skills';
 import Copyright from '../copyright/copyright';
 import NavMenu from '../nav-menu/nav-menu';
 import styles from './app.module.scss';
@@ -18,6 +19,7 @@ const App = () => (
     </section>
     <section id="skills" className={`${styles['scroll-section']} ${styles['skills-section']}`}>
       <h1 className={styles['section-title']}>Skills</h1>
+      <Skills />
     </section>
     <section id="education" className={`${styles['scroll-section']} ${styles['education-section']}`}>
       <h1 className={styles['section-title']}>Education</h1>

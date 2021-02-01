@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "Programming",
+      "value": "CSS, CSS Modules, HTML, GraphQL, JavaScript, JSON, Less, Sass, TypeScript"
+    },
+    {
+      "name": "Frameworks",
+      "value": "Angular, Apollo GraphQL, AWS CDK, Express, Mobx, React, Redux, Vue.js"
+    },
+    {
+      "name": "Tools",
+      "value": "Enzyme, Git, Grunt, Jest, Node, NPM, React Testing Library, Webpack, Yarn"
+    },
+    {
+      "name": "Databases",
+      "value": "AWS DocumentDB, MongoDB, MySQL"
+    },
+    {
+      "name": "Platforms",
+      "value": "Android, iOS, Mac OS, Microsoft Windows, Ubuntu Linux"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@import '../../mixins';
+@import '../../vars';
+
+.skills {
+  display: block;
+  list-style: none;
+  margin: 2rem auto;
+  max-width: $breakpoint-tablet-landscape;
+  padding: 0;
+}
+
+.skill-group {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  + .skill-group {
+    margin-top: 2rem;
+  }
+}
+
+.skill-name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.skill-value {
+  font-size: 1rem;
+  margin: .25rem 0;
+}
+
+@include mixin-breakpoint-tablet {
+  .skill-group {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill-name {
+    flex: 0 0 25%;
+  }
+
+  .skill-value {
+    flex: 0 0 75%;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}

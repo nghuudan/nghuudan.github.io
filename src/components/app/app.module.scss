@@ -6,40 +6,7 @@
   height: 100%;
   overflow: auto;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-}
-
-.links {
-  margin: 2rem auto;
-}
-
-.external-link {
-  &:link {
-    color: $link-font-color;
-  }
-
-  &:visited {
-    color: $link-visited-font-color;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-
-  &:active {
-    color: $link-active-font-color;
-  }
-
-  + .external-link {
-    margin-left: 1rem;
-  }
-}
-
-.link-icon {
-  display: inline-block;
-  margin-right: .25rem;
-  text-decoration: none;
-  vertical-align: middle;
+  scroll-snap-type: y proximity;
 }
 
 .scroll-section {

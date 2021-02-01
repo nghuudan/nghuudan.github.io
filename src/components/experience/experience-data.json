@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "begin": "2017",
+      "end": "Present",
+      "company": "Liberty Mutual",
+      "location": "Boston, MA",
+      "position": "Senior Software Engineer (Digital Claims, Home and Property)",
+      "achievements": [
+        "Utilized Agile/Scrum practices to deliver improved features based on customer feedback.",
+        "Led brand refresh for 4 React applications by making internal NPM packages for components.",
+        "Published internal NPM packages for retrying promises, JWT utilities, and A/B testing.",
+        "Created guided customer experiences for reporting stolen items and uploading documents.",
+        "Migrated data from internal MongoDB instances to DocumentDB in AWS to reduce costs by 60%.",
+        "Built accessible, mobile-first, and reusable React components and styles for use across 3 teams.",
+        "Optimized code and build configurations to reduce client bundle size by 80% for 5 applications.",
+        "Researched using AWS Fargate, API Gateway, and Lambdas with federated schemas for GraphQL.",
+        "Wrote unit tests for back end and front end applications using Jest and CodeceptJS.",
+        "Refactored GraphQL back end to use modernized REST services instead of SOAP services.",
+        "Mentored 3 junior engineers about CSS, React, TypeScript, and mobile-first development."
+      ]
+    },
+    {
+      "begin": "2013",
+      "end": "2017",
+      "company": "Aveniros, LLC",
+      "location": "Woburn, MA",
+      "position": "Senior Software Engineer",
+      "achievements": [
+        "Prototyped and built an online learning application with EvoText, Inc. for Big Ideas Math.",
+        "Consulted for Endurance International Group to build web hosting registration in React.",
+        "Built a custom web-based drag-and-drop Coordinate Plane tool for WIN Learning Math.",
+        "Integrated and customized Learnosity assessments and reports for online courses.",
+        "Reviewed and provided feedback in pull requests on small and large engineering teams."
+      ]
+    },
+    {
+      "begin": "2007",
+      "end": "2013",
+      "company": "GatherWorks, Inc.",
+      "location": "Amherst, NH",
+      "position": "Systems Engineer",
+      "achievements": [
+        "Designed and implemented the user interface for cross-platform web conferencing software.",
+        "Developed a web conferencing client with text chat and screen viewer for web browsers.",
+        "Provided technical support for web conferencing software over the phone, email, and chat."
+      ]
+    }
+  ]
+}

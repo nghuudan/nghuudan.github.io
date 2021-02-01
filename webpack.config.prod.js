@@ -51,4 +51,5 @@ module.exports = {
       filename: '[name].[contenthash].css',
     }),
   ],
+  target: ['es5', 'web'],
 };

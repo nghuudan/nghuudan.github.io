@@ -1,27 +1,23 @@
 @import '../../mixins';
 @import '../../vars';
 
-.experience {
-  box-sizing: border-box;
+.education {
+  display: block;
   list-style: none;
-  margin: 1rem auto;
+  margin: 2rem auto;
   max-width: $breakpoint-tablet-landscape;
   padding: 0;
 }
 
-.company {
+.college {
   box-sizing: border-box;
   line-height: 1.2;
   list-style: none;
   margin: 2rem 0;
   padding: 0;
-
-  + .company {
-    margin-top: 4rem;
-  }
 }
 
-.company-years {
+.years {
   box-sizing: border-box;
   flex: 1 1 20%;
   font-size: 1.25rem;
@@ -31,7 +27,7 @@
   white-space: nowrap;
 }
 
-.company-name {
+.name {
   box-sizing: border-box;
   flex: 1 1 60%;
   font-size: 1.5rem;
@@ -40,7 +36,7 @@
   padding-right: 1rem;
 }
 
-.company-location {
+.location {
   box-sizing: border-box;
   flex: 1 1 20%;
   font-size: 1rem;
@@ -48,14 +44,14 @@
   margin: 0;
 }
 
-.position {
+.degree {
   box-sizing: border-box;
   list-style: none;
   margin: 1rem 0;
   padding: 0;
 }
 
-.position-name {
+.degree-name {
   font-size: 1.25rem;
   font-weight: 300;
   margin: .5rem 0;
@@ -71,35 +67,23 @@
   box-sizing: border-box;
   list-style-type: disc;
   margin: .5rem 0;
-  padding: 0;
 }
 
 @include mixin-breakpoint-tablet {
-  .company {
+  .college {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .company-years,
-  .company-name,
-  .company-location {
+  .years,
+  .name,
+  .location {
     font-size: 1.5rem;
     margin: 0;
   }
 
   .position {
     flex: 0 1 100%;
-  }
-
-  .achievements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .achievement-text {
-    flex: 0 0 50%;
-    padding-right: 2rem;
   }
 }

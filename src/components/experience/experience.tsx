@@ -1,5 +1,4 @@
 import React from 'react';
-import { data } from './experience-data.json';
 import styles from './experience.module.scss';
 
 export interface JobExperience {
@@ -11,10 +10,14 @@ export interface JobExperience {
   achievements: string[];
 }
 
-const Experience = () => (
+export interface ExperienceProps {
+  jobs: JobExperience[];
+}
+
+const Experience = ({ jobs }: ExperienceProps) => (
   <ul className={styles.experience}>
     {
-      data.map((job: JobExperience) => (
+      jobs.map((job: JobExperience) => (
         <li className={styles.company} key={job.begin}>
           <h2 className={styles['company-years']}>
             {job.begin}

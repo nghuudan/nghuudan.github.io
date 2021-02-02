@@ -1,11 +1,19 @@
 import React from 'react';
-import { data } from './skills-data.json';
 import styles from './skills.module.scss';
 
-const Skills = () => (
+export interface Skill {
+  name: string;
+  value: string;
+}
+
+export interface SkillsProps {
+  skills: Skill[];
+}
+
+const Skills = ({ skills }: SkillsProps) => (
   <ul className={styles.skills}>
     {
-      data.map((skill) => (
+      skills.map((skill: Skill) => (
         <li className={styles['skill-group']} key={skill.name}>
           <h2 className={styles['skill-name']}>{skill.name}</h2>
           <p className={styles['skill-value']}>{skill.value}</p>

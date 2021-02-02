@@ -5,6 +5,8 @@ import Skills from '../skills/skills';
 import Education from '../education/education';
 import Copyright from '../copyright/copyright';
 import NavMenu from '../nav-menu/nav-menu';
+import { jobs } from '../../data/experience.json';
+import { skills } from '../../data/skills.json';
 import styles from './app.module.scss';
 
 const App = () => (
@@ -16,11 +18,11 @@ const App = () => (
     </section>
     <section id="experience" className={`${styles['scroll-section']} ${styles['experience-section']}`}>
       <h1 className={styles['section-title']}>Experience</h1>
-      <Experience />
+      <Experience jobs={jobs} />
     </section>
     <section id="skills" className={`${styles['scroll-section']} ${styles['skills-section']}`}>
       <h1 className={styles['section-title']}>Skills</h1>
-      <Skills />
+      <Skills skills={skills} />
     </section>
     <section id="education" className={`${styles['scroll-section']} ${styles['education-section']}`}>
       <h1 className={styles['section-title']}>Education</h1>

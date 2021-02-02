@@ -5,7 +5,6 @@
   box-sizing: border-box;
   min-height: 100%;
   padding: 1rem;
-  scroll-snap-align: start;
 }
 
 .section-title {
@@ -37,8 +36,6 @@
 
 .experience-section {
   background-color: $experience-bg-color;
-  height: 100%;
-  overflow: auto;
 }
 
 .skills-section {

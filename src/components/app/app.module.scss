@@ -37,6 +37,8 @@
 
 .experience-section {
   background-color: $experience-bg-color;
+  height: 100%;
+  overflow: auto;
 }
 
 .skills-section {

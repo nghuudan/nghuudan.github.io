@@ -19,5 +19,13 @@ html {
 }
 
 .app-root {
+  box-sizing: border-box;
   height: 100%;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  top: 0;
+  width: 100%;
 }

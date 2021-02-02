@@ -10,7 +10,7 @@ import { skills } from '../../data/skills.json';
 import styles from './app.module.scss';
 
 const App = () => (
-  <article className={styles.app}>
+  <>
     <section id="top" className={`${styles['scroll-section']} ${styles['top-section']}`}>
       <h1 className={styles['section-title']}>Dan H. Nguyen</h1>
       <h2 className={styles['section-subtitle']}>Software Engineer</h2>
@@ -30,7 +30,7 @@ const App = () => (
     </section>
     <Copyright />
     <NavMenu />
-  </article>
+  </>
 );
 
 export default App;

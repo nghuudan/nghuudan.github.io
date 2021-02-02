@@ -1,14 +1,6 @@
 @import '../../mixins';
 @import '../../vars';
 
-.app {
-  box-sizing: border-box;
-  height: 100%;
-  overflow: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
-}
-
 .scroll-section {
   box-sizing: border-box;
   min-height: 100%;

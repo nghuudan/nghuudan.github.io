@@ -23,11 +23,6 @@ jest.mock('../nav-menu/nav-menu', () => function NavMenuMock() {
 });
 
 describe('App', () => {
-  it('should be <article> element', () => {
-    const { container } = render(<App />);
-    expect(container.firstChild).toHaveProperty('tagName', 'ARTICLE');
-  });
-
   it('should render 4 <section> elements', () => {
     const { container } = render(<App />);
     expect(container.querySelectorAll('section')).toHaveLength(4);

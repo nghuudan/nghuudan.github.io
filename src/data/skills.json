@@ -2,15 +2,15 @@
   "skills": [
     {
       "name": "Programming",
-      "value": "CSS, CSS Modules, HTML, GraphQL, JavaScript, JSON, Less, Sass, TypeScript"
+      "value": "CSS, CSS Modules, HTML, GraphQL, Java, JavaScript, JSON, JSP, Less, Sass, TypeScript"
     },
     {
       "name": "Frameworks",
-      "value": "Angular, Apollo GraphQL, AWS CDK, Express, Mobx, React, Redux, Vue.js"
+      "value": "Angular, Apollo GraphQL, AWS CDK, Express, Mobx, React, Redux, Spring MVC, Vue.js"
     },
     {
       "name": "Tools",
-      "value": "Enzyme, Git, Grunt, Jest, Node, NPM, React Testing Library, Webpack, Yarn"
+      "value": "Enzyme, Git, Grunt, Jest, Maven, Node, NPM, React Testing Library, Webpack, Yarn"
     },
     {
       "name": "Databases",
